@@ -1,0 +1,16 @@
+.page-loader {
+  height: 80vh !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .ui.grid > .row > [class*="eleven wide"].column {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ui.grid > .row > [class*="eleven wide"].column {
+    width: 100% !important;
+    margin-bottom: 2em;
+  }
+}
